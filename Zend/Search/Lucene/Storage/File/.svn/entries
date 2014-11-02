@@ -1,0 +1,52 @@
+8
+
+dir
+125
+svn://OLIVER-PC/Gear/trunk/Zend/Search/Lucene/Storage/File
+svn://OLIVER-PC
+
+
+
+2008-07-11T09:03:17.307357Z
+1
+oliver
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f0d9a827-7f32-cc46-b7e5-c151444a4ed3
+
+Filesystem.php
+file
+
+
+
+
+2008-10-13T08:34:31.765202Z
+acdd356c21884ad66ba740586df433c2
+2008-07-11T09:03:17.307357Z
+1
+oliver
+
+Memory.php
+file
+
+
+
+
+2008-10-13T08:34:31.769202Z
+c6d14a077ae3d1ee0a99ebd50b585cf6
+2008-07-11T09:03:17.307357Z
+1
+oliver
+

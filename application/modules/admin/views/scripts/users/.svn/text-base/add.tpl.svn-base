@@ -1,0 +1,24 @@
+{form}
+<table class="table-list1" cellpadding="0" cellspacing="0">
+<tr>
+    <td>
+    <br>
+    {form_text label="Username:" name="username" size="20"}
+    {form_password label="Password:" name="password" size="20"}
+    {form_password label="Confirm Password:" name="confirm_password" size="20"}
+    <br>
+    {form_text label="Firstname:" name="firstname" size="40"}
+    {form_text label="Lastname:" name="lastname" size="40"}
+    {form_text label="Email:" name="email" size="40"}
+    {form_select label="Role:" name="role" options=$roles blank_text="-- select --"}
+    </td>
+</tr>
+<tr>
+    <td>
+    <label>&nbsp;</label>
+    {form_submit name="submit" class="botton" value="   Submit   " no_div=true} or 
+    {link_to href="/admin/users/list" confirm="Are you sure you want to cancel?"}cancel{/link_to}
+    </td>
+</tr>
+</table>
+{/form}

@@ -1,0 +1,43 @@
+8
+
+dir
+125
+svn://OLIVER-PC/Gear/trunk/Zend/Console
+svn://OLIVER-PC
+
+
+
+2008-07-11T09:03:17.307357Z
+1
+oliver
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f0d9a827-7f32-cc46-b7e5-c151444a4ed3
+
+Getopt
+dir
+
+Getopt.php
+file
+
+
+
+
+2008-10-13T08:34:26.318657Z
+a901b4dd82f36876d8dc52f417af00da
+2008-07-11T09:03:17.307357Z
+1
+oliver
+

@@ -1,0 +1,52 @@
+8
+
+dir
+125
+svn://OLIVER-PC/Gear/trunk/Zend/InfoCard/Cipher/Pki/Adapter
+svn://OLIVER-PC
+
+
+
+2008-07-11T09:03:17.307357Z
+1
+oliver
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f0d9a827-7f32-cc46-b7e5-c151444a4ed3
+
+Abstract.php
+file
+
+
+
+
+2008-10-13T08:34:23.398365Z
+5cadd05778d415c9d99bdcce4cccbd2c
+2008-07-11T09:03:17.307357Z
+1
+oliver
+
+Rsa.php
+file
+
+
+
+
+2008-10-13T08:34:23.401365Z
+27f4663bfd7fe29c3ca9c477a1513385
+2008-07-11T09:03:17.307357Z
+1
+oliver
+

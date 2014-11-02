@@ -1,0 +1,70 @@
+8
+
+dir
+125
+svn://OLIVER-PC/Gear/trunk/application/modules/admin/validators/roles
+svn://OLIVER-PC
+
+
+
+2008-09-04T16:37:17.569182Z
+90
+oliver
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f0d9a827-7f32-cc46-b7e5-c151444a4ed3
+
+edit
+dir
+
+add_resource.php
+file
+
+
+
+
+2008-10-13T08:34:41.373162Z
+35b09750ffd42a08ac6a710bec7eab08
+2008-09-04T16:37:17.569182Z
+90
+oliver
+
+add
+dir
+
+edit.php
+file
+
+
+
+
+2008-10-13T08:34:41.378163Z
+6cb06fdf0d757092946351470fd65ea6
+2008-09-04T16:37:17.569182Z
+90
+oliver
+
+add.php
+file
+
+
+
+
+2008-10-13T08:34:41.409166Z
+273e7b18a278c955321ebf8fdb380018
+2008-09-04T16:37:17.569182Z
+90
+oliver
+

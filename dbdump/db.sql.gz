@@ -1,0 +1,148 @@
+-- phpMyAdmin SQL Dump
+-- version 2.10.3
+-- http://www.phpmyadmin.net
+-- 
+-- Host: localhost
+-- Generation Time: Sep 04, 2008 at 04:17 PM
+-- Server version: 5.0.45
+-- PHP Version: 5.2.3
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+-- 
+-- Database: `testing_lang`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `acl_roles`
+-- 
+
+CREATE TABLE `acl_roles` (
+  `id` int(11) NOT NULL auto_increment,
+  `name` varchar(100) collate latin1_general_ci NOT NULL,
+  `description` varchar(200) collate latin1_general_ci NOT NULL,
+  `home_location` varchar(100) collate latin1_general_ci NOT NULL,
+  `created_on` datetime NOT NULL,
+  `updated_on` datetime NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci AUTO_INCREMENT=3 ;
+
+-- 
+-- Dumping data for table `acl_roles`
+-- 
+
+INSERT INTO `acl_roles` (`id`, `name`, `description`, `home_location`, `created_on`, `updated_on`) VALUES 
+(1, 'admin', 'Administrator', 'admin', '2008-09-04 23:59:45', '2008-09-04 23:59:45'),
+(2, 'guest', 'Guest', '', '2008-09-04 23:59:45', '2008-09-04 23:59:45');
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `acl_roles_inherited`
+-- 
+
+CREATE TABLE `acl_roles_inherited` (
+  `id` int(11) NOT NULL auto_increment,
+  `role_id` int(11) NOT NULL,
+  `role_inherited` int(11) NOT NULL,
+  `created_on` datetime NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `acl_roles_inherited`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `acl_role_resources`
+-- 
+
+CREATE TABLE `acl_role_resources` (
+  `id` int(11) NOT NULL auto_increment,
+  `role_id` int(11) NOT NULL,
+  `name` varchar(100) collate latin1_general_ci NOT NULL,
+  `privilege` longtext collate latin1_general_ci NOT NULL,
+  `created_on` datetime NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `acl_role_resources`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `user_lists`
+-- 
+
+CREATE TABLE `user_lists` (
+  `id` int(11) NOT NULL auto_increment,
+  `role_id` int(11) NOT NULL,
+  `username` varchar(50) collate latin1_general_ci NOT NULL,
+  `password` varchar(50) collate latin1_general_ci NOT NULL,
+  `created_on` datetime NOT NULL,
+  `updated_on` datetime NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci AUTO_INCREMENT=3 ;
+
+-- 
+-- Dumping data for table `user_lists`
+-- 
+
+INSERT INTO `user_lists` (`id`, `role_id`, `username`, `password`, `created_on`, `updated_on`) VALUES 
+(1, 1, 'admin', 'd9da8170e8bc9f27b2d32a6c9a6c697d', '2008-09-05 00:00:32', '2008-09-05 00:00:32'),
+(2, 2, 'guest', '83b70fcccf7213ca76b5efac69e6a42f', '2008-09-05 00:00:32', '2008-09-05 00:00:32');
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `user_logs`
+-- 
+
+CREATE TABLE `user_logs` (
+  `id` int(11) NOT NULL auto_increment,
+  `user_id` int(11) NOT NULL,
+  `ip_address` varchar(20) collate latin1_general_ci NOT NULL,
+  `session_id` varchar(50) collate latin1_general_ci NOT NULL,
+  `login_date` datetime NOT NULL,
+  `logout_date` datetime NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `user_logs`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `user_profiles`
+-- 
+
+CREATE TABLE `user_profiles` (
+  `id` int(11) NOT NULL auto_increment,
+  `user_id` int(11) NOT NULL,
+  `firstname` varchar(100) collate latin1_general_ci NOT NULL,
+  `lastname` varchar(100) collate latin1_general_ci NOT NULL,
+  `address` varchar(200) collate latin1_general_ci default NULL,
+  `email` varchar(100) collate latin1_general_ci default NULL,
+  `created_on` datetime NOT NULL,
+  `updated_on` datetime NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci AUTO_INCREMENT=3 ;
+
+-- 
+-- Dumping data for table `user_profiles`
+-- 
+
+INSERT INTO `user_profiles` (`id`, `user_id`, `firstname`, `lastname`, `address`, `email`, `created_on`, `updated_on`) VALUES 
+(1, 1, 'Administrator', '', NULL, NULL, '2008-09-05 00:01:16', '2008-09-05 00:01:16'),
+(2, 2, 'Guest', '', NULL, NULL, '2008-09-05 00:01:16', '2008-09-05 00:01:16');

@@ -1,0 +1,21 @@
+<h3>{$description}</h3>
+<table cellpadding="0" cellspacing="0">
+<tr>
+    <td>
+    <div class="info-box">
+        <p class="text-emphasis"><label>Username</label>: {$user.username}</p>
+        <p><label>Role</label>: {$user.role}</p>
+        <p><label>Firstname</label>: {$user.firstname|capitalize|default:'-'}</p>
+        <p><label>Lastname</label>: {$user.lastname|capitalize|default:'-'}</p>
+        <p><label>Email</label>: {$user.email|default:'-'}</p>
+    </div>
+    </td>
+</tr>
+<tr>
+    <td>
+    <div class="forms">
+    {form_button name="back" value="Back" class="botton" location="/admin/users/list"}
+    </div>
+    </td>
+</tr>
+</table>

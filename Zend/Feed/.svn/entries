@@ -1,0 +1,106 @@
+8
+
+dir
+125
+svn://OLIVER-PC/Gear/trunk/Zend/Feed
+svn://OLIVER-PC
+
+
+
+2008-07-11T09:03:17.307357Z
+1
+oliver
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f0d9a827-7f32-cc46-b7e5-c151444a4ed3
+
+Element.php
+file
+
+
+
+
+2008-10-13T08:33:41.749200Z
+5d8fa80d2f7d809bbc91e3cb3acf19a9
+2008-07-11T09:03:17.307357Z
+1
+oliver
+
+Entry
+dir
+
+Exception.php
+file
+
+
+
+
+2008-10-13T08:33:41.753201Z
+daf26c74759c3b31fdd2cfab751836ba
+2008-07-11T09:03:17.307357Z
+1
+oliver
+
+Builder
+dir
+
+Atom.php
+file
+
+
+
+
+2008-10-13T08:33:41.780204Z
+21f43c77ff5eb22269220c9b85c5ad67
+2008-07-11T09:03:17.307357Z
+1
+oliver
+
+Abstract.php
+file
+
+
+
+
+2008-10-13T08:33:41.820208Z
+6af2487e4d2877655b951035d6a5f238
+2008-07-11T09:03:17.307357Z
+1
+oliver
+
+Builder.php
+file
+
+
+
+
+2008-10-13T08:33:41.827208Z
+4cf2e9d108c683ec0c4ae014d55237f8
+2008-07-11T09:03:17.307357Z
+1
+oliver
+
+Rss.php
+file
+
+
+
+
+2008-10-13T08:33:41.833209Z
+baeabd943da3a3c5bda5b44ecc7542a5
+2008-07-11T09:03:17.307357Z
+1
+oliver
+

@@ -1,0 +1,16 @@
+<?php
+/**
+ * Production configuration
+ */
+
+Env::set('database', array(
+	'adapter' => 'Pdo_Mysql',
+	'host'    => 'localhost',
+	'user'    => 'postgres',
+	'pass'    => 'postgres',
+	'dbname'  => 'ekoop',
+//    'dbname'  => 'postgres',
+//	  'port'    => '2000',
+));
+
+Env::set('error_handler', true);

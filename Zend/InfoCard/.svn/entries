@@ -1,0 +1,73 @@
+8
+
+dir
+125
+svn://OLIVER-PC/Gear/trunk/Zend/InfoCard
+svn://OLIVER-PC
+
+
+
+2008-07-11T09:03:17.307357Z
+1
+oliver
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f0d9a827-7f32-cc46-b7e5-c151444a4ed3
+
+Adapter
+dir
+
+Xml
+dir
+
+Cipher.php
+file
+
+
+
+
+2008-10-13T08:34:24.227448Z
+0e66151402091045976b8a42ec4b6bab
+2008-07-11T09:03:17.307357Z
+1
+oliver
+
+Exception.php
+file
+
+
+
+
+2008-10-13T08:34:24.230448Z
+e68baf3b26fd7e4b07a16a639c429a09
+2008-07-11T09:03:17.307357Z
+1
+oliver
+
+Cipher
+dir
+
+Claims.php
+file
+
+
+
+
+2008-10-13T08:34:24.250450Z
+5170db5cb4f62172c86313804322d5a9
+2008-07-11T09:03:17.307357Z
+1
+oliver
+

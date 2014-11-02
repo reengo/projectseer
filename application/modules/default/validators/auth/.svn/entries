@@ -1,0 +1,43 @@
+8
+
+dir
+125
+svn://OLIVER-PC/Gear/trunk/application/modules/default/validators/auth
+svn://OLIVER-PC
+
+
+
+2008-08-11T16:19:25.100149Z
+66
+oliver
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f0d9a827-7f32-cc46-b7e5-c151444a4ed3
+
+login
+dir
+
+login.php
+file
+
+
+
+
+2008-10-13T08:34:39.306956Z
+1a5d04c438d095df2f11494d9639753a
+2008-08-11T16:19:25.100149Z
+66
+oliver
+

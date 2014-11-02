@@ -1,0 +1,55 @@
+8
+
+dir
+146
+svn://OLIVER-PC/Gear/trunk/library/Validator
+svn://OLIVER-PC
+
+
+
+2008-09-04T16:37:17.569182Z
+90
+oliver
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f0d9a827-7f32-cc46-b7e5-c151444a4ed3
+
+Exception.php
+file
+
+
+
+
+2008-10-21T09:17:14.656966Z
+83d814e75c1ef15bad983907e758925a
+2008-07-11T09:03:17.307357Z
+1
+oliver
+
+Rule
+dir
+
+Rule.php
+file
+
+
+
+
+2008-10-21T09:17:14.659966Z
+ec47e00cce626205dc0f562ad91a29c6
+2008-09-04T14:12:57.471182Z
+89
+oliver
+

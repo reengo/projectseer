@@ -1,0 +1,85 @@
+8
+
+dir
+125
+svn://OLIVER-PC/Gear/trunk/Zend/Mail
+svn://OLIVER-PC
+
+
+
+2008-07-11T09:03:17.307357Z
+1
+oliver
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f0d9a827-7f32-cc46-b7e5-c151444a4ed3
+
+Protocol
+dir
+
+Storage
+dir
+
+Exception.php
+file
+
+
+
+
+2008-10-13T08:34:21.520177Z
+c1097b2c0f93c0287525f24e3efa4d36
+2008-07-11T09:03:17.307357Z
+1
+oliver
+
+Storage.php
+file
+
+
+
+
+2008-10-13T08:34:21.547180Z
+e645b8b333d7caad4b6774f30d3d1891
+2008-07-11T09:03:17.307357Z
+1
+oliver
+
+Message.php
+file
+
+
+
+
+2008-10-13T08:34:21.551180Z
+e048e35b9b0519f0f118e5db7d8b2830
+2008-07-11T09:03:17.307357Z
+1
+oliver
+
+Transport
+dir
+
+Part.php
+file
+
+
+
+
+2008-10-13T08:34:21.570182Z
+f9fadad791448ba19788d48ad32d29d7
+2008-07-11T09:03:17.307357Z
+1
+oliver
+

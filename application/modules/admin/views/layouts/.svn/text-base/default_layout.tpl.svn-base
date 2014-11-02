@@ -1,0 +1,13 @@
+{doctype type="xtransitional"}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+{head_meta}
+{head_title}
+{head_link href="main.css" rel="stylesheet"}
+{scriptaculous}
+</head>
+
+<body>
+{$content_for_layout}
+</body>
+</html>
