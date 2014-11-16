@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'root',
-			'username'  => 'kolokoi',
-			'password'  => '',
+			'database'  => 'projectseer',
+			'username'  => 'root',
+			'password'  => 'kolokoi',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
