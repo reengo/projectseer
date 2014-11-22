@@ -1,8 +1,0 @@
-{$sample}
-
-{form}
-{flash}
-{form_text name="username"}
-{form_select name="country" options=$options blank_text="-- Countries --"}
-{form_submit name="submit"}
-{/form}

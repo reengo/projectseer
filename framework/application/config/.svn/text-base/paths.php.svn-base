@@ -1,6 +1,0 @@
-<?php
-
-Env::set('controller_directories', array(
-    'admin'   => '../application/modules/admin/controllers',
-    'default' => '../application/modules/default/controllers',
-));

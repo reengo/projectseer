@@ -1,9 +1,0 @@
-<h3>View Role</h3>
-
-<div class="info-box">
-    <p class="text-emphasis"><label>Role</label>: {$role.name}</p>
-    <p><label>Description</label>: {$role.description|capitalize|default:'-'}</p>
-    <p><label>Inherited From</label>: {$role.parents|default:'-'}</p>
-    <p><label>Home Location</label>: {$role.home_location|default:'-'}</p>
-</div>
-{form_button name="back" value="Back" class="botton" location="/admin/roles/list"}

@@ -1,9 +1,0 @@
-<?php
-
-class Admin_IndexController extends ApplicationController 
-{
-    public function indexAction()
-    {
-        
-    }
-}
