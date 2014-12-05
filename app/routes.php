@@ -15,3 +15,9 @@ Route::get('/', function()
 {
 	return Redirect::guest('login');
 });
+
+
+Route::get('/static', function()
+{
+	return Redirect::guest('static');
+});
