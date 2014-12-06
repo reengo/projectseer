@@ -21,3 +21,8 @@ Route::get('/static', function()
 {
 	return Redirect::guest('static');
 });
+
+Route::get('/test', function()
+{
+	return Redirect::guest('test');
+});
